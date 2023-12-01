@@ -39,3 +39,5 @@ Data Visualization: Matplotlib, Seaborn, Tableau.
 Project Goals:
 
 Input factors: Loan amount, purpose of loan, annual income, and potentially other factors to determine the rate that a person may get for their loan
+
+Interactive Display on JavaScript Plotly Dashboard
