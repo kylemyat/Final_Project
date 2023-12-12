@@ -1,25 +1,25 @@
 # Final_Project
 
-##Goal
+Goal
 The goal of our Final Project is to create and train a model that accurately predicts loan interest rates a user would receive based on various features.
 
-#1. Data Collection
+1. Data Collection
 Source for Data:
 Raw data was derived from LendingTree website.
 The dataset included various features involved in calculating loan approval and interest rates which included but is not limited to the following:
 Loan Amount, Funded Amount, Term, Interest rate, Installments, Annual income, etc.
 
-#2. Data Preprocessing
+2. Data Preprocessing
 Cleaning: Data was cleaned and typecasted through SQL. We then exported a SQL database and a CSV of the clean data which was later used in our model.
 
 
-#3. Choose Machine Learning Model
+3. Choose Machine Learning Model
 After careful consideration of the various machine learning models available, we decided to use a Decision Tree Model.
 This is due to the model's ease of understanding numerical and categorical data as well as its ability to predict continuous data.
 
 
 
-#5. Model Training and Validation
+5. Model Training and Validation
 Split the data into training and test sets.
 Train the model on the training set.
 Validate the model on the validation set and tune hyperparameters using GridSearchCV.
