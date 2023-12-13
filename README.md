@@ -1,6 +1,6 @@
 # Final_Project
 
-# Goal
+## Goal
 
 The goal of our Final Project is to create and train a model that accurately predicts loan interest rates a user would receive based on various features.
 
@@ -38,7 +38,7 @@ delinq_2yrs                        0.053053
 
 inq_last_6mths                     0.028110
 
-# Tools and Technologies
+## Tools and Technologies
 
 Programming Languages: Python, SQL, JavaScript Plotly
 Libraries: Pandas, NumPy, Scikit-learn, Pathlib.
