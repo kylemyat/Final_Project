@@ -1,6 +1,7 @@
 # Final_Project
 
-Goal
+# Goal
+
 The goal of our Final Project is to create and train a model that accurately predicts loan interest rates a user would receive based on various features.
 
 1. Data Collection
@@ -37,17 +38,10 @@ delinq_2yrs                        0.053053
 
 inq_last_6mths                     0.028110
 
-Tools and Technologies
+# Tools and Technologies
 
 Programming Languages: Python, SQL, JavaScript Plotly
 Libraries: Pandas, NumPy, Scikit-learn, Pathlib.
 Database Tools: MySQL, PostgreSQL.
 Data Visualization: JavaScript Plotly, PowerPoint.
 
-
-
-Project Goals:
-
-Input factors: Loan amount, purpose of loan, annual income, and potentially other factors to determine the rate that a person may get for their loan
-
-Interactive Display on JavaScript Plotly Dashboard
