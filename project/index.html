@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Loan Prediction Model - Feature Importances</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Loan Prediction Model - Feature Importances</h1>
+    <p>
+      This page showcases the results of a machine learning model trained to predict loan amounts. The model, a Decision Tree Regressor, was optimized through hyperparameter tuning and trained on a dataset containing information such as loan term, employment length, and home ownership. The accompanying bar chart illustrates the importance of various features in influencing loan amounts. The model achieved a mean squared error of 0.000637880445971776, highlighting its effectiveness in capturing relationships within the data.
+    </p>
+
+    <div id="chart-container"></div>
+
+    <!-- Description of Features -->
+    <div class="feature-description">
+      <h2>Feature Descriptions:</h2>
+      <p><strong>Term Length:</strong> The number of payments on the loan</p>
+      <p><strong>Credit Utilization Rate:</strong> Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit.</p>
+      <p><strong>Monthly Payment:</strong> The monthly payment owed by the borrower if the loan originates.</p>
+      <p><strong>Delinquencies (2yrs):</strong> The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years</p>
+      <p><strong>Open Credit Lines:</strong> The number of open credit lines in the borrower's credit file.</p>
+      <p><strong>Credit Inquiry (6 mo):</strong> The number of inquiries in past 6 months (excluding auto and mortgage inquiries)</p>
+      <p><strong>Loan Amount:</strong> The total amount committed to that loan at that point in time.</p>
+      <p><strong>Credit Revolving Balance:</strong> Total credit revolving balance</p>
+    </div>
+
+    <!-- Use Plotly CDN for the library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Include your custom JavaScript file -->
+    <script src="js/plotly-chart.js"></script>
+  </div>
+</body>
+</html>

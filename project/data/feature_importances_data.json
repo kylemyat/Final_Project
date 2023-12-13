@@ -1,0 +1,8 @@
+[{"Feature":"Term Length","Importance":0.3636154906},
+{"Feature":"Credit Utilization Rate","Importance":0.3367600124},
+{"Feature":"Monthly Payment","Importance":0.1242684732},
+{"Feature":"Delinquencies (2 yrs)","Importance":0.0519250993},
+{"Feature":"Open Credit Lines","Importance":0.0299412272},
+{"Feature":"Credit Inquiry (6 mo)","Importance":0.0284555218},
+{"Feature":"Loan Amount","Importance":0.0223020384},
+{"Feature":"Credit Revolving Balance","Importance":0.0208665505}]
