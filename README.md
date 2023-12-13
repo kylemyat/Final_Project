@@ -27,6 +27,7 @@ Validate the model on the validation set and tune hyperparameters using GridSear
   * Our optimum parameter: max_depth:7, min_samples_leaf: 2, min_samples_split: 2
   * Mean Squared Error of 0.00064332
   * The following features held the most weight in determining interest rates:
+    * term_ 60 months                    0.367418
 
 term_ 60 months                    0.367418
 
