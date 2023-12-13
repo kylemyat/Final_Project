@@ -38,6 +38,7 @@ delinq_2yrs                        0.053053
 inq_last_6mths                     0.028110
 
 Tools and Technologies
+
 Programming Languages: Python, SQL, JavaScript Plotly
 Libraries: Pandas, NumPy, Scikit-learn, Pathlib.
 Database Tools: MySQL, PostgreSQL.
