@@ -28,16 +28,10 @@ Validate the model on the validation set and tune hyperparameters using GridSear
   * Mean Squared Error of 0.00064332
   * The following features held the most weight in determining interest rates:
     * term_ 60 months                    0.367418
-
-term_ 60 months                    0.367418
-
-revol_util                         0.334756
-
-installment                        0.123857
-
-delinq_2yrs                        0.053053
-
-inq_last_6mths                     0.028110
+    * revol_util                         0.334756
+    * installment                        0.123857
+    * delinq_2yrs                        0.053053
+    * inq_last_6mths                     0.028110
 
 ## Tools and Technologies
 
